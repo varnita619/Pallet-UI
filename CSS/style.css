@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#0cf4c4;
+    --secondary-color:#2596be;
+    --default-color:#1cdcf9;
+    --text-color:white;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.nav {
+    height: 3rem;
+    box-shadow: 1px 1px 2px rgba(128, 128, 128, 0.335);
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    width: 8.5rem;
+    height: 9rem;
+    border-radius: 50%;
+    margin-top: -3rem;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: black;
+    font-size: .7rem;
+}
+
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav--align-start {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    justify-content: flex-start;
+}
+
+.nav--align-end {
+    margin-left: auto;
+    padding: 1rem;
+    font-size: .7rem;
+}
+
+.main-section{
+    margin-top:4rem ;
+    text-align: center;
+    
+}
+
+.head{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.subhead{
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+    padding: 1rem 0 1.5rem 0;
+   
+}
+
+.btn{
+    background: transparent;
+    border: none;
+    padding: .5rem;
+    border-radius: 30px;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.btn-secondary{
+    border: 1.5px solid var(--primary-color);
+}
+
+.title-gutter{
+    color: var(--default-color);
+    font-weight: bold;
+}
