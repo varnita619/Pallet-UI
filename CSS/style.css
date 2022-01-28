@@ -9,6 +9,7 @@
     --secondary-color:#2596be;
     --default-color:#1cdcf9;
     --text-color:white;
+    --shadow-color:rgba(128, 128, 128, 0.335);
 }
 
 body {
@@ -16,20 +17,25 @@ body {
 }
 
 .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100vw;
     height: 5rem;
-    box-shadow: 1px 1px 2px rgba(128, 128, 128, 0.335);
+    box-shadow: 1px 1px 2px var(--shadow-color);
     text-align: center;
 }
 
 .nav-section{
     display: flex;
-    justify-content: space-between;
+   
+    width: 100vw;
 }
 
 .nav-logo{
-    width: 12rem;
-    height: 13rem;
-    margin-top: -4rem;
+    width: 13rem;
+    height: 14rem;
+    margin-top: -4.5rem;
 }
 
 .nav-links{
@@ -39,8 +45,8 @@ body {
 }
 
 a:hover{
-    text-decoration: underline;
     cursor: pointer;
+    color: var(--default-color);
 }
 
 .nav--align-start {
@@ -57,30 +63,37 @@ a:hover{
 }
 
 .main-section{
-    margin-top:5rem ;
+    margin-top:8rem ;
     text-align: center;   
 }
 
 .head{
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 4rem;
+    font-family: 'Bitter', serif;
 }
 
 .subhead{
     text-align: center;
     margin: auto;
-    max-width: 800px;
-    padding: 1rem 0 1.5rem 0;
-    font-size: 1.5rem;
+    max-width: 70rem;
+    padding: 3rem 0 2rem 0;
+    font-size: 2rem;
 }
 
 .btn{
-    background: transparent;
-    border: none;
+    color: black;
+    text-decoration: none;
     padding: 1rem;
-    margin: 5px;
+    margin-top: 2rem;
+    margin: 9px;
     border-radius: 30px;
-    font-size: 1rem;
+    font-size: 1.5rem;
+}
+
+.btn:hover{
+    text-decoration: none;
+
 }
 
 .btn-primary{
@@ -88,11 +101,21 @@ a:hover{
     color: var(--text-color);
 }
 
-.btn-secondary{
-    border: 1.5px solid var(--primary-color);
+.btn-primary:hover{
+    color: white;
+    filter: brightness(95%);
 }
 
-.title-gutter{
+.btn-secondary{
+    border: 1.8px solid var(--primary-color);
+}
+
+.btn-secondary:hover{
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.sub-title-gutter{
     color: var(--default-color);
     font-weight: bold;
 }
