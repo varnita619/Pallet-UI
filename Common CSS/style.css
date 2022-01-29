@@ -7,9 +7,11 @@
 
 :root{
     --primary-color:#0cf4c4;
+    --primary-color-light:#0cf4c67a;
     --secondary-color:#1cdcf9;
     --text-color:white;
     --shadow-color:rgba(128, 128, 128, 0.335);
+    --border-color:rgba(161, 154, 154, 0.383);
 }
 
 body {
