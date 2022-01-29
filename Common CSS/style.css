@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    word-wrap: break-word;
 }
 
 :root{
     --primary-color:#0cf4c4;
-    --secondary-color:#2596be;
-    --default-color:#1cdcf9;
+    --secondary-color:#1cdcf9;
     --text-color:white;
     --shadow-color:rgba(128, 128, 128, 0.335);
 }
