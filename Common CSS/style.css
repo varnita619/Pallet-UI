@@ -21,8 +21,8 @@ body {
 .nav-section{
     display: flex;
     align-items: center;
+    
     justify-content: space-between;
-    /* flex-wrap: wrap; */
     padding: 1em .5em 1em 1em;
     box-shadow: 1px 1px 2px var(--border-color);
     width: 100%;
@@ -35,12 +35,22 @@ body {
 .nav--align-start {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 }
 
 .nav--align-end {
     margin-left: auto;
     align-items: flex-end;
+}
+
+.nav--align-end i{
+    margin-right: 1em;
+}
+
+.nav--align-end i:hover{
+    cursor: pointer;
+    color: var(--primary-color);
 }
 
 .nav-logo{
@@ -69,15 +79,12 @@ a:hover{
 .nav--align-start {
     display: flex;
     gap: 1rem;
-    /* margin-top: 2rem; */
     justify-content: flex-start;
 }
 
 .nav--align-end {
-    /* margin-left: auto;
+    margin-left: auto;
     align-items: flex-end;
-    padding: 2rem;
-    font-size: .9rem; */
 }
 
 .main-section{
