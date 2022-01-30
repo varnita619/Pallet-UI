@@ -6,13 +6,14 @@
 
 .install-container{
     display: flex;
+    gap: 2rem;
 }
 
 .side-bar{
     flex: 0 0 240px;
+    margin-left: 5rem;
     width: 15rem;
     height: 100vh;
-    box-shadow: 1px 1px 2px var(--shadow-color);
 }
 
 .list-topic{
@@ -20,6 +21,10 @@
     border-bottom: 1px solid #d9d9d9;
     margin-bottom: .5rem;
     margin-top: 1rem;
+}
+
+.side-list-subtopic li a:hover{
+    color: var(--secondary-color);
 }
 
 .side-list-subtopic li{
@@ -41,4 +46,22 @@
     font-size: 2rem;
     text-align: center;
     margin-left: 3rem;
+}
+
+/* media queries */
+
+@media screen and (max-width:967px){
+    .side-bar{
+        display: none;
+    }
+
+    .component-content-container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .component{
+        padding: 0;
+        margin: 0;
+    }
 }

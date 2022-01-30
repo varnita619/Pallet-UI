@@ -1,6 +1,5 @@
 .component-content-container{
     padding: 1rem;
-    margin: .5rem;
 }
 
 .component{
@@ -36,4 +35,13 @@
     width: 100%;
     border: none;
     border-radius: 10px;
+}
+
+/* media queries */
+
+@media screen and (max-width:967px){
+    .component{
+        padding: 0;
+        margin: 0;
+    }
 }
