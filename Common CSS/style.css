@@ -2,65 +2,82 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    word-wrap: break-word;
 }
 
 :root{
     --primary-color:#0cf4c4;
-    --secondary-color:#2596be;
-    --default-color:#1cdcf9;
+    --primary-color-light:#0cf4c67a;
+    --secondary-color:#1cdcf9;
     --text-color:white;
     --shadow-color:rgba(128, 128, 128, 0.335);
+    --border-color:rgba(161, 154, 154, 0.383);
+    --hover-color:rgba(212, 203, 203, 0.486);
 }
 
 body {
     font-family: sans-serif;
 }
 
-.nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100vw;
-    height: 5rem;
-    box-shadow: 1px 1px 2px var(--shadow-color);
-    text-align: center;
-}
-
 .nav-section{
     display: flex;
-   
-    width: 100vw;
+    align-items: center;
+    
+    justify-content: space-between;
+    padding: 1em .5em 1em 1em;
+    box-shadow: 1px 1px 2px var(--border-color);
+    width: 100%;
+}
+
+.nav-menu{
+    margin-right: 1em;
+}
+
+.nav--align-start {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nav--align-end {
+    margin-left: auto;
+    align-items: flex-end;
+}
+
+.nav--align-end i{
+    margin-right: 1em;
+}
+
+.nav--align-end i:hover{
+    cursor: pointer;
+    color: var(--primary-color);
 }
 
 .nav-logo{
-    width: 13rem;
-    height: 14rem;
-    margin-top: -4.5rem;
+    margin-right: 1.5em;
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.nav-logo-sub{
+    font-size: .9rem;
+    color: rgba(0, 0, 0, 0.705);
 }
 
 .nav-links{
     text-decoration: none;
     color: black;
     font-size: 1rem;
+    margin-right: 2em;
 }
 
 a:hover{
     cursor: pointer;
-    color: var(--default-color);
+    color: var(--primary-color);
 }
 
-.nav--align-start {
-    display: flex;
-    gap: 1rem;
-    margin-top: 2rem;
-    justify-content: flex-start;
-}
 
-.nav--align-end {
-    margin-left: auto;
-    padding: 2rem;
-    font-size: .9rem;
-}
 
 .main-section{
     margin-top:8rem ;
@@ -93,7 +110,6 @@ a:hover{
 
 .btn:hover{
     text-decoration: none;
-
 }
 
 .btn-primary{
