@@ -47,6 +47,7 @@ body {
 
 .nav--align-end i{
     margin-right: 1em;
+    color: black;
 }
 
 .nav--align-end i:hover{
