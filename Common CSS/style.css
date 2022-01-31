@@ -12,6 +12,7 @@
     --text-color:white;
     --shadow-color:rgba(128, 128, 128, 0.335);
     --border-color:rgba(161, 154, 154, 0.383);
+    --hover-color:rgba(212, 203, 203, 0.486);
 }
 
 body {
@@ -76,16 +77,7 @@ a:hover{
     color: var(--primary-color);
 }
 
-.nav--align-start {
-    display: flex;
-    gap: 1rem;
-    justify-content: flex-start;
-}
 
-.nav--align-end {
-    margin-left: auto;
-    align-items: flex-end;
-}
 
 .main-section{
     margin-top:8rem ;

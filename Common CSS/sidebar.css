@@ -36,11 +36,6 @@
     
 }
 
-.side-list-subtopic li:hover{
-    background-color: var(--border-color);
-    border-radius: 20px;
-}
-
 .side-list-subtopic li a:hover{
     color: var(--primary-color);
    
