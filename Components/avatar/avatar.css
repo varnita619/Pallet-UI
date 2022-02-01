@@ -9,33 +9,35 @@
     border: 1px solid black;
     width: 100%;
     border-radius: 7px;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
 }
 
 .avatar{
     margin: .5rem;
 }
 
-.avatar-image{
+.round-avatar-image{
     border-radius: 50%;
     cursor: pointer;
 }
 
-.avatar-xl img{
+.avatar-xl{
     width: 7rem;
     height: 8rem;
 }
 
-.avatar-lg img{
+.avatar-lg{
     width: 5rem;
     height: 6rem;
 }
 
-.avatar-md img{
+.avatar-md{
     width: 3rem;
     height: 4rem;
 }
 
-.avatar-sm img{
-    width: 1rem;
+.avatar-sm{
+    width: 1.5rem;
     height: 2rem;
 }
