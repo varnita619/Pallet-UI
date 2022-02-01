@@ -1,10 +1,10 @@
-:root{
-    --success:#2cf0328f;
-    --danger:#f33228b9;
-    --warning:#ee9a1cd0;
+:root {
+    --success: #2cf0328f;
+    --danger: #f33228b9;
+    --warning: #ee9a1cd0;
 }
 
-.alert-container{
+.alert-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -17,47 +17,47 @@
     margin: 2rem 0;
 }
 
-.primary-alert{
+.primary-alert {
     width: 100%;
     padding: 1rem 3rem 1rem 1rem;
     margin: 1rem 0;
     font-size: 1rem;
-    background-color:  var(--primary-color);
+    background-color: var(--primary-color);
     border-radius: 7px;
 }
 
-.secondary-alert{
+.secondary-alert {
     width: 100%;
     padding: 1rem 3rem 1rem 1rem;
     margin: 1rem 0;
     font-size: 1rem;
-    background-color:  var(--secondary-color);
+    background-color: var(--secondary-color);
     border-radius: 7px;
 }
 
-.success-alert{
+.success-alert {
     width: 100%;
     padding: 1rem 3rem 1rem 1rem;
     margin: 1rem 0;
     font-size: 1rem;
-    background-color:  var(--success);
+    background-color: var(--success);
     border-radius: 7px;
 }
 
-.danger-alert{
+.danger-alert {
     width: 100%;
     padding: 1rem 3rem 1rem 1rem;
     margin: 1rem 0;
     font-size: 1rem;
-    background-color:  var(--danger);
+    background-color: var(--danger);
     border-radius: 7px;
 }
 
-.warning-alert{
+.warning-alert {
     width: 100%;
     padding: 1rem 3rem 1rem 1rem;
     margin: 1rem 0;
     font-size: 1rem;
-    background-color:  var(--warning);
+    background-color: var(--warning);
     border-radius: 7px;
 }

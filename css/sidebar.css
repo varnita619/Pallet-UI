@@ -1,13 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .install-container{
     display: flex;
     gap: 2rem;
-    border-bottom:2px solid var(--border-color) ;
+    border-bottom: 2px solid var(--border-color);
 }
 
 .side-bar{
