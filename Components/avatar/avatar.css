@@ -7,6 +7,7 @@
 .avatar-container{
     display: flex;
     border: 1px solid black;
+    justify-content: center;
     width: 100%;
     border-radius: 7px;
     margin-bottom: 2em;
@@ -19,6 +20,10 @@
 
 .round-avatar-image{
     border-radius: 50%;
+    cursor: pointer;
+}
+
+.square-avatar-image{
     cursor: pointer;
 }
 
