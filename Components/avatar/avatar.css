@@ -8,6 +8,7 @@
     display: flex;
     border: 1px solid black;
     justify-content: center;
+    align-items: flex-end;
     width: 100%;
     border-radius: 7px;
     margin-bottom: 2em;
@@ -28,21 +29,21 @@
 }
 
 .avatar-xl {
-    width: 7rem;
+    width: 8rem;
     height: 8rem;
 }
 
 .avatar-lg {
-    width: 5rem;
+    width: 6rem;
     height: 6rem;
 }
 
 .avatar-md {
-    width: 3rem;
+    width: 4rem;
     height: 4rem;
 }
 
 .avatar-sm {
-    width: 1.5rem;
-    height: 2rem;
+    width: 3.5rem;
+    height: 3.5rem;
 }
