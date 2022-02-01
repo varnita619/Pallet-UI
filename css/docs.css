@@ -29,12 +29,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .code-snippets-iframe{
-    width: 100%;
-    border: none;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 /* media queries */
