@@ -21,22 +21,23 @@
 
 .status-online {
     background-color: var(--online-badge);
-    right: .9em;
+    right: 14px;
 }
 
 .status-offline {
     background-color: var(--offline-badge);
-    right: .1px;
+    right: -5px;
+    /* bottom: 40em; */
 }
 
 .status-donotdisturb {
     background-color: var(--dontdisturb-badge);
-    right: .2em;
+    right: 7px;
 }
 
 .status-ideal {
     background-color: var(--ideal-badge);
-    right: .3px;
+    right: -5px;
 }
 
 .span {
