@@ -64,15 +64,17 @@
 }
 
 .badge-icon-number {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     position: absolute;
     background-color: var(--dontdisturb-badge);
     border: 2px solid var(--text-color);
     color: var(--text-color);
     padding: .2em;
-    left: 1.3em;
-    bottom: 2em;
+    left: 1.5em;
+    bottom: 1.9em;
     border-radius: 50%;
     min-width: 1.5rem;
     height: 1.5rem;
