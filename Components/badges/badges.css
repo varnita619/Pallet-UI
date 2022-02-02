@@ -1,4 +1,4 @@
-.badges-container{
+.badges-container {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -13,37 +13,37 @@
     width: 100%;
 }
 
-.badge{
+.badge {
     position: relative;
     width: max-content;
     margin-right: 1em;
 }
 
-.status-online{
+.status-online {
     background-color: var(--online-badge);
     right: .9em;
 }
 
-.status-offline{
+.status-offline {
     background-color: var(--offline-badge);
     right: .1px;
 }
 
-.status-donotdisturb{
+.status-donotdisturb {
     background-color: var(--dontdisturb-badge);
     right: .2em;
 }
 
-.status-ideal{
+.status-ideal {
     background-color: var(--ideal-badge);
     right: .3px;
 }
 
-.span{
+.span {
     display: block;
 }
 
-.status-badge{
+.status-badge {
     position: absolute;
     border-radius: 50%;
     min-width: 1rem;
@@ -55,20 +55,20 @@
     bottom: .7em;
 }
 
-.icons-badge{
-   padding: .5em;
-   min-width: 1rem;
-   height: auto;
-   font-size: 1.5rem;
+.icons-badge {
+    padding: .5em;
+    min-width: 1rem;
+    height: auto;
+    font-size: 1.5rem;
 }
 
-.badge-icon-number{
+.badge-icon-number {
     display: block;
     text-align: center;
     position: absolute;
     background-color: var(--dontdisturb-badge);
     border: 2px solid var(--text-color);
-    color:var(--text-color);
+    color: var(--text-color);
     padding: .2em;
     left: 1.3em;
     bottom: 2em;
