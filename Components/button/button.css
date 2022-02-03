@@ -15,7 +15,6 @@
 }
 
 .button {
-    text-decoration: none;
     padding: .5em;
     margin-right: .7em;
     font-size: 1.1rem;
@@ -40,14 +39,21 @@
     margin-right: .5em;
 }
 
+.floating-btn-container {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
 .floating-action-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    box-shadow: 10px 10px 5px #aaaaaa;
     margin: 0;
     padding: 0;
     border-radius: 50%;
     border: none;
-    width: 40px;
-    height: 40px;
-    box-shadow: 0.9px 2.8px 4.2px rgba(0, 0, 0, 0.404);
 }
 
 .primary-outline-button {
@@ -72,4 +78,8 @@
     background-color: none;
     border: none;
     border-bottom: 2px solid var(--primary-color);
+}
+
+.link-button:hover{
+    color: var(--text-black);
 }
