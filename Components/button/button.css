@@ -2,27 +2,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 1.5rem;
     cursor: pointer;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.8rem;
     flex-wrap: wrap;
     box-shadow: 1px 1px 2px var(--shadow-color);
     border-radius: 10px;
     border: 2px solid var(--light-border-color);
     background-color: var(--background-color);
-    min-height: 100%;
+    height: auto;
     width: 100%;
-}
-
-.button-div {
-    margin-right: 4em;
-    text-align: center;
 }
 
 .button {
     text-decoration: none;
-    padding: .7em;
-    margin-right: 1em;
+    padding: .5em;
+    margin-right: .7em;
     font-size: 1.1rem;
     cursor: pointer;
     border: none;
@@ -50,8 +45,8 @@
     padding: 0;
     border-radius: 50%;
     border: none;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     box-shadow: 0.9px 2.8px 4.2px rgba(0, 0, 0, 0.404);
 }
 
@@ -74,7 +69,7 @@
 }
 
 .button-div>.text-button {
-    background-color: inherit;
+    background-color: none;
     border: none;
     border-bottom: 2px solid var(--primary-color);
 }

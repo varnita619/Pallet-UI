@@ -2,9 +2,9 @@ body {
     font-family: sans-serif;
 }
 
-.nav-section{
+.nav-section {
     display: flex;
-    align-items: center;   
+    align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 1em .5em 1em 1em;
@@ -12,7 +12,7 @@ body {
     width: 100%;
 }
 
-.nav-menu{
+.nav-menu {
     margin-right: 1em;
 }
 
@@ -28,57 +28,57 @@ body {
     align-items: flex-end;
 }
 
-.nav--align-end i{
+.nav--align-end i {
     margin-right: 1em;
     color: black;
 }
 
-.nav--align-end i:hover{
+.nav--align-end i:hover {
     cursor: pointer;
     color: var(--primary-color);
 }
 
-.nav-logo{
+.nav-logo {
     margin-right: 1.5em;
     font-size: 2rem;
     color: var(--primary-color);
 }
 
-.nav-logo-sub{
+.nav-logo-sub {
     font-size: .9rem;
     color: rgba(0, 0, 0, 0.705);
 }
 
-.nav-links{
+.nav-links {
     text-decoration: none;
     color: black;
     font-size: 1rem;
     margin-right: 2em;
 }
 
-a:hover{
+a:hover {
     cursor: pointer;
     color: var(--primary-color);
 }
 
 
 
-.main-section{
+.main-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 4em;
-    text-align: center;   
+    text-align: center;
 }
 
-.head{
+.head {
     font-weight: bold;
     font-size: 3rem;
     font-family: 'Bitter', serif;
 }
 
-.subhead{
+.subhead {
     text-align: center;
     margin: auto;
     max-width: 70rem;
@@ -86,49 +86,49 @@ a:hover{
     font-size: 1.5rem;
 }
 
-.btn-div{
+.btn-div {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.btn{
+.btn {
     color: black;
     text-decoration: none;
     padding: .7em;
     margin-right: 1em;
     font-size: 1.2rem;
-    box-shadow: 2px 2px 2px var(--border-color);
+    border-radius: 10px;
     cursor: pointer;
     border: none;
 }
 
-.btn:hover{
+.btn:hover {
     text-decoration: none;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: var(--primary-color);
     color: var(--text-color);
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     color: black;
     background-color: transparent;
     border: 1.8px solid var(--primary-color);
 }
 
-.btn-secondary{
+.btn-secondary {
     border: 1.8px solid var(--primary-color);
 }
 
-.btn-secondary:hover{
+.btn-secondary:hover {
     color: white;
     background-color: var(--primary-color);
 }
 
-.sub-title-gutter{
+.sub-title-gutter {
     color: var(--default-color);
     font-weight: bold;
 }
