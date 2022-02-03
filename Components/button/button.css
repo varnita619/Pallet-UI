@@ -1,0 +1,85 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    cursor: pointer;
+    margin-bottom: 1.8rem;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 2px var(--shadow-color);
+    border-radius: 10px;
+    border: 2px solid var(--light-border-color);
+    background-color: var(--background-color);
+    height: auto;
+    width: 100%;
+}
+
+.button {
+    padding: .5em;
+    margin-right: .7em;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border: none;
+    background-color: var(--primary-color);
+}
+
+.button:hover {
+    filter: brightness(80%);
+}
+
+.secondary-button {
+    background-color: var(--secondary-color);
+}
+
+.icon-button {
+    margin-right: .9em;
+}
+
+.cart-icon {
+    margin-right: .5em;
+}
+
+.floating-btn-container {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.floating-action-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    border: none;
+}
+
+.primary-outline-button {
+    background-color: inherit;
+    border: 2px solid var(--primary-color);
+}
+
+.secondary-outline-button {
+    background-color: inherit;
+    border: 2px solid var(--secondary-color);
+}
+
+.primary-outline-button:hover {
+    background-color: var(--primary-color);
+}
+
+.secondary-outline-button:hover {
+    background-color: var(--secondary-color);
+}
+
+.button-div>.text-button {
+    background-color: none;
+    border: none;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.link-button:hover{
+    color: var(--text-black);
+}
