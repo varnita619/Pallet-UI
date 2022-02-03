@@ -1,0 +1,80 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 2px var(--shadow-color);
+    border-radius: 10px;
+    border: 2px solid var(--light-border-color);
+    background-color: var(--background-color);
+    min-height: 100%;
+    width: 100%;
+}
+
+.button-div {
+    margin-right: 4em;
+    text-align: center;
+}
+
+.button {
+    text-decoration: none;
+    padding: .7em;
+    margin-right: 1em;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border: none;
+    background-color: var(--primary-color);
+}
+
+.button:hover {
+    filter: brightness(80%);
+}
+
+.secondary-button {
+    background-color: var(--secondary-color);
+}
+
+.icon-button {
+    margin-right: .9em;
+}
+
+.cart-icon {
+    margin-right: .5em;
+}
+
+.floating-action-button {
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0.9px 2.8px 4.2px rgba(0, 0, 0, 0.404);
+}
+
+.primary-outline-button {
+    background-color: inherit;
+    border: 2px solid var(--primary-color);
+}
+
+.secondary-outline-button {
+    background-color: inherit;
+    border: 2px solid var(--secondary-color);
+}
+
+.primary-outline-button:hover {
+    background-color: var(--primary-color);
+}
+
+.secondary-outline-button:hover {
+    background-color: var(--secondary-color);
+}
+
+.button-div>.text-button {
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid var(--primary-color);
+}

@@ -98,8 +98,10 @@ a:hover{
     text-decoration: none;
     padding: .7em;
     margin-right: 1em;
-    border-radius: 50px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 2px var(--border-color);
+    cursor: pointer;
+    border: none;
 }
 
 .btn:hover{

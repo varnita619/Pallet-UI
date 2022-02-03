@@ -10,8 +10,10 @@
     --secondary-color:#1cdcf9;
     --text-color:white;
     --shadow-color:rgba(128, 128, 128, 0.335);
+    --light-border-color: rgba(221, 213, 213, 0.288);
     --border-color:rgba(161, 154, 154, 0.383);
     --hover-color:rgba(212, 203, 203, 0.486);
+    --background-color: rgba(224, 220, 220, 0.294);
 }
 
 /* width */
