@@ -1,0 +1,27 @@
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    cursor: pointer;
+    margin-bottom: 1.8rem;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 2px var(--shadow-color);
+    border-radius: 10px;
+    border: 2px solid var(--light-border-color);
+    background-color: var(--background-color);
+    height: auto;
+    width: 100%;
+}
+
+.responsive{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.round{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
