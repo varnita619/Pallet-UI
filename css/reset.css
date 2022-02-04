@@ -9,6 +9,7 @@
   --primary-color-light: #0cf4c67a;
   --secondary-color: #1cdcf9;
   --text-color: white;
+  --text-black:black;
   --shadow-color: rgba(128, 128, 128, 0.335);
   --border-color: rgba(161, 154, 154, 0.383);
   --light-border-color: rgba(221, 213, 213, 0.288);
@@ -18,6 +19,9 @@
   --offline-badge: grey;
   --dontdisturb-badge: red;
   --ideal-badge: yellow;
+  --success: #2cf0328f;
+  --danger: #f33228b9;
+  --warning: #ee9a1cd0;
 }
 
 /* width */
