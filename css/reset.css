@@ -18,10 +18,12 @@
   --online-badge: green;
   --offline-badge: grey;
   --dontdisturb-badge: red;
+  --danger-color:red;
   --ideal-badge: yellow;
   --success: #2cf0328f;
   --danger: #f33228b9;
   --warning: #ee9a1cd0;
+  --disable-button-color:rgba(56, 54, 54, 0.74);
 }
 
 /* width */
