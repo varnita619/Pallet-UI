@@ -5,7 +5,7 @@
 }
 
 :root {
-  --primary-color: #0cf4c4;
+  --primary-color: #0cabf4;
   --primary-color-light: #0cf4c67a;
   --secondary-color: #1cdcf9;
   --text-color: white;
@@ -39,7 +39,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #0cf4c4;
+  background: #0cabf4;
   border-radius: 10px;
 }
 
