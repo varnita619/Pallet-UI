@@ -5,7 +5,7 @@
 }
 
 :root {
-  --primary-color: #0cf4c4;
+  --primary-color: #0cabf4;
   --primary-color-light: #0cf4c67a;
   --secondary-color: #1cdcf9;
   --text-color: white;
@@ -18,10 +18,12 @@
   --online-badge: green;
   --offline-badge: grey;
   --dontdisturb-badge: red;
+  --danger-color:red;
   --ideal-badge: yellow;
   --success: #2cf0328f;
   --danger: #f33228b9;
   --warning: #ee9a1cd0;
+  --disable-button-color:rgba(56, 54, 54, 0.74);
 }
 
 /* width */
@@ -37,7 +39,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #0cf4c4;
+  background: #0cabf4;
   border-radius: 10px;
 }
 
