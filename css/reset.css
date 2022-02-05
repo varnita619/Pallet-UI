@@ -6,8 +6,7 @@
 
 :root {
   --primary-color: #0cabf4;
-  --primary-color-light: #0cf4c67a;
-  --secondary-color: #1cdcf9;
+  --secondary-color: #d04ee7e0;
   --text-color: white;
   --text-black:black;
   --shadow-color: rgba(128, 128, 128, 0.335);
@@ -17,7 +16,6 @@
   --background-color: rgba(224, 220, 220, 0.294);
   --online-badge: green;
   --offline-badge: grey;
-  --dontdisturb-badge: red;
   --danger-color:red;
   --ideal-badge: yellow;
   --success: #2cf0328f;

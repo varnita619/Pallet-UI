@@ -21,6 +21,7 @@
     cursor: pointer;
     border: none;
     background-color: var(--primary-color);
+    color: var(--text-color);
 }
 
 .button:hover {
@@ -37,6 +38,10 @@
 
 .cart-icon {
     margin-right: .5em;
+}
+
+.link-button{
+    color: var(--text-black);
 }
 
 .floating-btn-container {
@@ -59,11 +64,13 @@
 .primary-outline-button {
     background-color: inherit;
     border: 2px solid var(--primary-color);
+    color: var(--text-black);
 }
 
 .secondary-outline-button {
     background-color: inherit;
     border: 2px solid var(--secondary-color);
+    color: var(--text-black);
 }
 
 .primary-outline-button:hover {

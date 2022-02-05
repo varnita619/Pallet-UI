@@ -23,7 +23,8 @@
 }
 
 .text-highlight{
-    background-color: var(--primary-color-light);
+    background-color: var(--primary-color);
+    color: var(--text-color);
 }
 
 .code-snippets{
