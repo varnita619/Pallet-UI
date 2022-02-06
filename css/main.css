@@ -45,8 +45,8 @@ body {
 }
 
 .nav-logo-sub {
-    font-size: .9rem;
-    color: rgba(0, 0, 0, 0.705);
+    font-size: .7rem;
+    color: var(--shadow-color);
 }
 
 .nav-links {
