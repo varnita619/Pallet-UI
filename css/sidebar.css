@@ -1,12 +1,11 @@
 .install-container{
     display: flex;
     gap: 2rem;
-    border-bottom: 2px solid var(--border-color);
+    margin: auto;
 }
 
 .side-bar{
     flex: 0 0 240px;
-    margin-left: 5rem;
     width:100%;
     height: 100vh;
 }
@@ -26,7 +25,7 @@
 
 .side-list-subtopic a{
     text-decoration: none;
-    color: black;
+    color: var(--text-black);
     font-size: 1rem;
     
 }
@@ -59,5 +58,18 @@
     .component{
         padding: 0;
         margin: 0;
+    }
+}
+
+/* for main-content */
+@media screen and (max-width:2000px){
+    .install-container{
+        width:80%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .install-container{
+        width:100%;
     }
 }

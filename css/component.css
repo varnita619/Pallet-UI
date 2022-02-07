@@ -1,8 +1,10 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css");
 @import url(/Components/alert/alert.css);
 @import url(/Components/avatar/avatar.css);
 @import url(/Components/badges/badges.css);
 @import url(/Components/button/button.css);
 @import url(/Components/images/images.css);
 @import url(/Components/input/input.css);
-@import url(/css/reset.css);
+@import url(/Components/card/card.css);
+
 
