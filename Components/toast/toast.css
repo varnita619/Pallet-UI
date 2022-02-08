@@ -1,0 +1,102 @@
+.toast-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.3rem;
+    align-items: center;
+    padding: 1.5rem;
+    cursor: pointer;
+    margin-bottom: 1.8rem;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 2px var(--shadow-color);
+    border-radius: 10px;
+    border: 2px solid var(--light-border-color);
+    background-color: var(--background-color);
+    height: auto;
+    width: 100%;
+}
+
+.toast {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--primary-color);
+    width: auto;
+    padding: .7rem;
+    box-shadow: 3px 3px 4px var(--text-grey);
+}
+
+.toast-content {
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+.toast-actions {
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+}
+
+.toast-actions>button {
+    position: inline-block;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    padding: .6rem;
+}
+
+.retry--btn:hover,
+.retry--btn:active {
+    cursor: pointer;
+    background-color: var(--background-color);
+}
+
+.wrong--btn:hover,
+.wrong--btn:active {
+    cursor: pointer;
+    line-height: 0;
+    border-radius: 50%;
+    background-color: var(--background-color);
+}
+
+.retry--btn {
+    color: var(--text-color);
+}
+
+.wrong--btn {
+    color: var(--text-color);
+}
+
+.live-btn {
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.live-btn:hover {
+    filter: brightness(85%);
+}
+
+.hidden-toast {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+    padding: .7rem;
+    box-shadow: 3px 3px 4px var(--text-grey);
+    position: fixed;
+    bottom: -5rem;
+    left: 1rem;
+    transition: 0.3s all;
+    background-color: var(--danger-color);
+}
+
+.active-toast {
+    bottom: 1rem;
+}
