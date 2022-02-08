@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pallet UI | List</title>
+    <title>Pallet UI | Ratings</title>
 
     <!-- Favicon -->
     <link rel="icon" href="/assets/favicon.png">
@@ -38,7 +38,6 @@
 
             <div class="nav--align-start">
                 <h1 class="nav-logo">Pallet UI <sub class=" ui-version nav-logo-sub">v1.0</sub></h1>
-                <!-- <img src="/logo.svg" class="nav-logo" alt=""> -->
 
                 <div class="nav-menu">
                     <a href="/index.html" class="nav-links">Home</a>
@@ -62,7 +61,7 @@
 
         <!-- Side Bar Start -->
 
-        <div class="install-container">
+        <div class="main-container">
             <div class="side-bar">
 
                 <div class="side-list">
@@ -128,7 +127,17 @@
                         </li>
                         <li>
                             <a href="/Components/toast/toast.html">
-                                Toast
+                                Toast/Snackbar/Notify
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/navigation/navigation.html">
+                                Navigation
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Components/ratings/ratings.html">
+                                Ratings
                             </a>
                         </li>
                     </ul>
@@ -138,118 +147,54 @@
 
             <!-- Side Bar End -->
 
-            <!-- List Start -->
+            <!-- Rating Content Start -->
             <main class="component-content-container">
 
                 <div class=" component">
-                    <h1 class="component-title">List</h1>
+                    <h1 class="component-title">Navigation</h1>
 
-                    <p class="component-details">The List component allows you to display a list of pages or links. You
-                        can build the list of links by defining a parent page (and displaying its child pages), manually
-                        choosing pages, or defining search criteria.</p>
+                    <p class="component-details">Navigation comes under GUI that helps the visitors in accessing
+                        information. It is the UI element on a webpage that includes links for the other sections of the
+                        website. A navigation bar is mostly displayed on the top of the page in the form of a horizontal
+                        list of links.</p>
 
-                    <h2 class="component-subtitle">Ordered and Unordered List</h2>
+                    <h2 class="component-subtitle">Nav-Bar</h2>
 
-                    <p class="component-details">Here are some ordered and unordered list components for you with
-                        examples. If you want to
+                    <p class="component-details">Here is a navigation component for you with examples. If you want to
                         use them in order to develop your apps with a faster pace just add these classes to your code.
                     </p>
 
-                    <div class="list-wrap">
-                        <!-- Unordered-LI -->
-                        <ul class="ul-ol-wrap">
-                            <li class="square-li">Grocery</li>
-                            <li class="square-li">Gadgets</li>
-                            <li class="square-li">Clothing</li>
-                            <li>Electronics</li>
-                        </ul>
-
-                        <!-- Ordered LI -->
-                        <ol class="ul-ol-wrap">
-                            <li class="roman-li">Watches</li>
-                            <li class="roman-li">Laptops</li>
-                            <li class="roman-li">Camera</li>
-                            <li class="roman-li">Men's Clothing</li>
-                        </ol>
-                    </div>
-
-
-                    <!-- Code Snippets for components -->
-                    <div class="code-snippets">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=45px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253C%21--%2520Unordered%2520List%2520--%253E%2520%250A%2520%250A%2520%253Cul%2520class%253D%2522ul-ol-wrap%2522%253E%250A%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522square-li%2522%253EGrocery%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522square-li%2522%253EGadgets%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522square-li%2522%253EClothing%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%253EElectronics%253C%252Fli%253E%250A%253C%252Ful%253E"
-                            class="code-snippets-iframe" sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </div>
-                </div>
-
-                <!-- Outline Button Content Start -->
-                <div class=" component">
-
-                    <h2 class="component-subtitle">Stacked List</h2>
-
-                    <p class="component-details">Here are some list components for you with examples. If you want
-                        to
-                        use them in order to develop your apps with a faster pace just add these classes to your
-                        code.
-                    </p>
-
-                    <main class="list-wrap stacked-list-wrap">
-                        <div class="notification-list">
-                            <ul class="stacked-list">
-                                <li class="stacked-list-items">
-                                    <img src="data:image/png;base64,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"
-                                        alt="avatar-image">
-                                    <section class="stacked-list-content">
-                                        <h5>Sam Ballad</h5>
-                                        <p class="list-subheading">Congratulations🎉 You won!!!</p>
-                                    </section>
-                                </li>
-                            </ul>
-                        </div>
-
-
-                        <!-- second stacked list -->
-
-                        <div class="notification-list">
-                            <ul class="stacked-list">
-                                <li class="stacked-list-items">
-                                    <img src="data:image/jpeg;base64,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"
-                                        alt="avatar-image">
-                                    <section class="stacked-list-content">
-                                        <h5>Sam Ballad</h5>
-                                        <p class="list-subheading">Congratulations🎉 You won!!!</p>
-                                    </section>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <!-- third stacked list -->
-                        <div class="notification-list">
-                            <ul class="stacked-list">
-                                <li class="stacked-list-items">
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWYo2yKCLQmnzoC9UZxuXzkjBMZCNtvSt_0A&usqp=CAU"
-                                        alt="avatar-img">
-                                    <section class="stacked-list-content">
-                                        <h5>Sam Ballad</h5>
-                                        <p class="list-subheading">Congratulations🎉 You won!!!</p>
-                                    </section>
-                                </li>
-                            </ul>
+                    <!-- ratings start -->
+                    <main class="rating-container">
+                        <div class="rating-wrapper">
+                            <i class="fas fa-star star rated-star"></i>
+                            <i class="fas fa-star star rated-star"></i>
+                            <i class="fas fa-star star"></i>
+                            <i class="fas fa-star star"></i>
+                            <i class="fas fa-star star"></i>
                         </div>
                     </main>
-                    <!-- Code Snippets for stacked list -->
+
+
+                    <!-- Code Snippets for rating -->
                     <div class="code-snippets">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=45px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522notification-list%2522%253E%250A%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522stacked-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522stacked-list-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522avatar-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522stacked-list-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253ESam%2520Ballad%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522list-subheading%2522%253ECongratulations%25F0%259F%258E%2589%2520You%2520won%21%21%21%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E"
-                            class="code-snippets-iframe" sandbox="allow-scripts allow-same-origin">
-                        </iframe>
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=45px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520star%2520rated-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520star%2520rated-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520star%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+                        class="code-snippets-iframe"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+
+
                     </div>
 
                 </div>
+
+                <hr>
+
             </main>
         </div>
     </div>
+
 </body>
 
 </html>
