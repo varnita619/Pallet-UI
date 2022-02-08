@@ -1,6 +1,6 @@
-.install-container{
+.main-container{
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
     margin: auto;
 }
 
@@ -63,13 +63,13 @@
 
 /* for main-content */
 @media screen and (max-width:2000px){
-    .install-container{
-        width:80%;
+    .main-container{
+        width:85%;
     }
 }
 
 @media screen and (max-width:600px){
-    .install-container{
+    .main-container{
         width:100%;
     }
 }

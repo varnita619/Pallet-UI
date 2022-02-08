@@ -47,6 +47,11 @@
     border-radius: 20px;
 }
 
+.code-snippets-heading{
+    margin-top: 1.4rem;
+    text-align: center;
+}
+
 /* media queries */
 
 @media screen and (max-width:967px){

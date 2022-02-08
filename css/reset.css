@@ -5,8 +5,8 @@
 }
 
 :root {
-  --primary-color: #0cabf4;
-  --primary-color-light:#0cabf4d3;
+  --primary-color: #0c65f4;
+  --primary-color-light:#0c65f4d3;
   --secondary-color: #d04ee7e0;
   --text-color: white;
   --text-black:black;
@@ -25,6 +25,7 @@
   --danger: #f33228b9;
   --warning: #ee9a1cd0;
   --disable-button-color:rgba(56, 54, 54, 0.74);
+  --toast-color: rgba(22, 22, 22, 0.822);
 }
 
 /* width */
