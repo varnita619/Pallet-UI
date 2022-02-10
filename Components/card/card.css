@@ -92,12 +92,12 @@
 /* Card with badge */
 
 .card-badge {
-    background-color: var(--danger-color);
-    color: var(--text-color);
-    padding: .14rem;
+    background-color: var(--text-color);
+    color: var(--text-black);
+    padding: .30rem;
     border-radius: 50%;
     border-radius: 3.125rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     position: absolute;
     width: 1.8rem;
     height: 1.8rem;
