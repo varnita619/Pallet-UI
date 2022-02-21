@@ -70,3 +70,6 @@ Pallet-UI - A component library to develop apps rapidly with responsive, reusabl
 
 ### [Navigation](https://pallet-ui.netlify.app/components/navigation/navigation)
 ### [Toast](https://pallet-ui.netlify.app/components/toast/toast)
+### [Ratings](https://pallet-ui.netlify.app/components/ratings/ratings)
+### [Grid](https://pallet-ui.netlify.app/components/grid/grid)
+### [Modal](https://pallet-ui.netlify.app/components/modal/modal)
