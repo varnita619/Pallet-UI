@@ -1,5 +1,7 @@
 # Pallet-UI
 Pallet-UI - A component library to develop apps rapidly with responsive, reusable building blocks.
+
+
 ![Screenshot (11)](https://user-images.githubusercontent.com/66819239/154797486-445198f6-500a-4906-91ba-94a515929e25.png)
 
 # Instructions to use
