@@ -41,7 +41,7 @@
 }
 
 .link-button{
-    color: var(--text-black);
+    color: var(--text-color);
 }
 
 .floating-btn-container {
@@ -54,7 +54,7 @@
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 3px 3px 5px #aaaaaa;
     margin: 0;
     padding: 0;
     border-radius: 50%;
@@ -88,5 +88,5 @@
 }
 
 .link-button:hover{
-    color: var(--text-black);
+    color: var(--text-color);
 }

@@ -5,47 +5,47 @@
 }
 
 :root {
-  --primary-color: #0c65f4;
+  --primary-color: #0c8cf4;
   --primary-color-light:#0c65f4d3;
   --secondary-color: #d04ee7e0;
-  --text-color: white;
-  --text-black:black;
-  --text-grey:grey;
-  --shadow-color: rgba(0, 0, 0, 0.356);
-  --border-color: rgba(161, 154, 154, 0.383);
-  --light-border-color: rgba(221, 213, 213, 0.288);
-  --hover-color: rgba(212, 203, 203, 0.486);
-  --background-color: rgba(224, 220, 220, 0.294);
+  --text-color: #ffffff;
+  --text-black:#000000;
+  --text-grey:#808080;
+  --shadow-color: #0000005b;
+  --border-color: #a19a9a62;
+  --light-border-color: #ddd5d549;
+  --hover-color: #d4cbcb7c;
+  --background-color: #e0dcdc4b;
   --overlay-card-background-color:#393839;
-  --online-badge: green;
-  --offline-badge: grey;
-  --danger-color:red;
-  --ideal-badge: yellow;
+  --online-badge: #008000;
+  --offline-badge: #808080;
+  --danger-color:#ff0000;
+  --ideal-badge: #ffff00;
   --success: #2cf0328f;
   --danger: #f33228b9;
   --warning: #ee9a1cd0;
-  --disable-button-color:rgba(56, 54, 54, 0.74);
-  --toast-color: rgba(22, 22, 22, 0.822);
+  --disable-button-color:#383636bd;
+  --toast-color: #161616d2;
 }
 
 /* width */
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 5px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px var(--border-color);
-  border-radius: 30px;
+  box-shadow: inset 0 0 5px var(--background-color);
+  border-radius: 3px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--primary-color);
+  background: var(--background-color);
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--primary-color-light);
+  background: var(--background-color);
 }

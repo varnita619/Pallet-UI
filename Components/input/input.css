@@ -68,4 +68,5 @@
 
 .disable{
     color: var(--disable-button-color);
+    cursor: no-drop;
 }

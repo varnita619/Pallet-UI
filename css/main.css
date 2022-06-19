@@ -1,134 +1,174 @@
 body {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 .nav-section {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1em .5em 1em 1em;
-    box-shadow: 1px 1px 2px var(--border-color);
-    width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1em 0.5em 1em 1em;
+  box-shadow: 1px 1px 2px var(--shadow-color);
+  width: 100%;
 }
 
 .nav-menu {
-    margin-right: 1em;
+  margin-right: 1em;
 }
 
 .nav--align-start {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .nav--align-end {
-    margin-left: auto;
-    align-items: flex-end;
+  margin-left: auto;
+  align-items: flex-end;
 }
 
 .nav--align-end i {
-    margin-right: 1em;
-    color: black;
+  margin-right: 1em;
+  color: var(--text-black);
 }
 
 .nav--align-end i:hover {
-    cursor: pointer;
-    color: var(--primary-color);
+  cursor: pointer;
+  color: var(--primary-color);
 }
 
 .nav-logo {
-    margin-right: 1.5em;
-    font-size: 2rem;
-    color: var(--primary-color);
+  margin-right: 1.5em;
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.main-logo{
+  text-decoration: none;
 }
 
 .nav-logo-sub {
-    font-size: .7rem;
-    color: var(--shadow-color);
+  font-size: 0.7rem;
+  color: var(--shadow-color);
 }
 
 .nav-links {
-    text-decoration: none;
-    color: black;
-    font-size: 1rem;
-    margin-right: 2em;
+  text-decoration: none;
+  color: var(--text-black);
+  font-size: 1rem;
+  margin-right: 2em;
 }
 
 a:hover {
-    cursor: pointer;
-    color: var(--primary-color);
+  cursor: pointer;
+  color: var(--primary-color);
 }
 
+.main-container {
+  display: flex;
+}
 
+.main-img > img {
+  width: 42rem;
+  height: 38rem;
+}
 
 .main-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4em;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .head {
-    font-weight: bold;
-    font-size: 3rem;
-    font-family: 'Bitter', serif;
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: "Bitter", serif;
 }
 
 .subhead {
-    text-align: center;
-    margin: auto;
-    max-width: 70rem;
-    padding: 1em 0 1em 0;
-    font-size: 1.5rem;
+  text-align: center;
+  margin: 1rem;
+  max-width: 70rem;
+  padding: 1em 0 1em 0;
+  font-size: 1.5rem;
 }
 
 .btn-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .btn {
-    color: black;
-    text-decoration: none;
-    padding: .7em;
-    margin-right: 1em;
-    font-size: 1.2rem;
-    border-radius: 10px;
-    cursor: pointer;
-    border: none;
+  text-decoration: none;
+  padding: 0.6em;
+  margin-right: 1em;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
 }
 
 .btn:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .btn-primary {
-    background-color: var(--primary-color);
-    color: var(--text-color);
+  background-color: var(--primary-color);
+  color: var(--text-color);
 }
 
 .btn-primary:hover {
-    color: black;
-    background-color: transparent;
-    border: 1.8px solid var(--primary-color);
+  color: var(--text-black);
+  background-color: transparent;
+  border: 1.8px solid var(--primary-color);
 }
 
 .btn-secondary {
-    border: 1.8px solid var(--primary-color);
+  color: var(--text-black);
+  border: 1.5px solid var(--primary-color);
 }
 
 .btn-secondary:hover {
-    color: white;
-    background-color: var(--primary-color);
+  color: var(--text-color);
+  background-color: var(--primary-color);
 }
 
 .sub-title-gutter {
-    color: var(--default-color);
-    font-weight: bold;
+  color: var(--default-color);
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 435px) {
+  .main-img > img {
+    display: none;
+  }
+
+  .head {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+
+  .subhead {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width:769px) {
+    .main-img > img{
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .head{
+        margin-top: 2rem;
+    }
 }

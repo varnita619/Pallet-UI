@@ -1,252 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pallet UI | Text Utilities</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="/assets/favicon.png">
+    <link rel="icon" href="/assets/favicon.png" />
 
     <!-- font awesome link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- font family link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:wght@600&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- CSS links -->
-    <link rel="stylesheet" href="/css/component.css">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/sidebar.css">
-    <link rel="stylesheet" href="/css/docs.css">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/component.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/sidebar.css" />
+    <link rel="stylesheet" href="/css/docs.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
 
-</head>
-
-<body>
-
-
+  <body>
     <div class="container">
+      <div class="nav-section">
+        <div class="nav--align-start">
+          <a href="/index.html" class="main-logo"
+            ><h1 class="nav-logo">
+              Pallet UI <sub class="ui-version nav-logo-sub">v1.0</sub>
+            </h1></a
+          >
 
-        <div class="nav-section">
-
-            <div class="nav--align-start">
-                <h1 class="nav-logo">Pallet UI <sub class=" ui-version nav-logo-sub">v1.0</sub></h1>
-                <!-- <img src="/logo.svg" class="nav-logo" alt=""> -->
-
-                <div class="nav-menu">
-                    <a href="/index.html" class="nav-links">Home</a>
-                    <a href="/Installation/install.html" class="nav-links">Docs</a>
-                </div>
-            </div>
-
-            <div class="nav--align-end">
-                <a href="https://github.com/varnita619"> <i class="fab fa-github" aria-hidden="true"
-                        title="github"></i></a>
-                <a href="https://twitter.com/VarnitaMakrari1"><i class="fab fa-twitter" aria-hidden="true"
-                        title="twitter"></i></a>
-                <a href="https://www.linkedin.com/in/varnita-makrariya-307177191/"><i class="fab fa-linkedin"
-                        aria-hidden="true" title="linkedin"></i></a>
-                <i class="fa fa-moon" aria-hidden="true" title="light-dark mode"></i>
-            </div>
+          <div class="nav-menu">
+            <a href="/index.html" class="nav-links">Home</a>
+            <a href="/Installation/install.html" class="nav-links">Docs</a>
+          </div>
         </div>
 
+        <div class="nav--align-end">
+          <a href="https://github.com/varnita619" target="_blank">
+            <i class="fab fa-github" aria-hidden="true" title="github"></i
+          ></a>
+          <a href="https://twitter.com/VarnitaMakrari1" target="_blank"
+            ><i class="fab fa-twitter" aria-hidden="true" title="twitter"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/varnita-makrariya-307177191/"
+            target="_blank"
+            ><i class="fab fa-linkedin" aria-hidden="true" title="linkedin"></i
+          ></a>
+          <i
+            class="fa fa-moon"
+            aria-hidden="true"
+            title="light-dark mode"
+            id="toggle-theme"
+          ></i>
+        </div>
+      </div>
 
-        <!-- Navbar End -->
+      <!-- Navbar End -->
 
-        <!-- Side Bar Start -->
+      <!-- Side Bar Start -->
 
-        <div class="main-container">
-            <div class="side-bar">
+      <div class="main-container">
+        <div class="side-bar">
+          <div class="side-list">
+            <h4 class="list-topic">Installation Guide</h4>
 
-                <div class="side-list">
-                    <h4 class="list-topic">Installation Guide</h4>
+            <ul class="side-list-subtopic">
+              <li>
+                <a href="/Installation/install.html"> Introduction </a>
+              </li>
+            </ul>
+          </div>
 
-                    <ul class="side-list-subtopic">
-                        <li>
-                            <a href="/Installation/install.html">
-                                Introduction
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+          <div class="side-list">
+            <h4 class="list-topic">Components</h4>
 
-                <div class="side-list">
-                    <h4 class="list-topic"> Components</h4>
+            <ul class="side-list-subtopic">
+              <li>
+                <a href="/Components/avatar/avatar.html"> Avatar </a>
+              </li>
+              <li>
+                <a href="/Components/alert/alert.html"> Alert </a>
+              </li>
+              <li>
+                <a href="/Components/badges/badges.html"> Badge </a>
+              </li>
+              <li>
+                <a href="/Components/button/button.html"> Button </a>
+              </li>
+              <li>
+                <a href="/Components/card/card.html"> Card </a>
+              </li>
+              <li>
+                <a href="/Components/images/images.html"> Image </a>
+              </li>
+              <li>
+                <a href="/Components/input/input.html"> Input </a>
+              </li>
+              <li>
+                <a href="/Components/text-utility/text-utility.html">
+                  Text Utilities
+                </a>
+              </li>
+              <li>
+                <a href="/Components/list/list.html"> List </a>
+              </li>
+              <li>
+                <a href="/Components/toast/toast.html">
+                  Toast/Snackbar/Notify
+                </a>
+              </li>
+              <li>
+                <a href="/Components/navigation/navigation.html">
+                  Navigation
+                </a>
+              </li>
+              <li>
+                <a href="/Components/ratings/ratings.html"> Ratings </a>
+              </li>
+              <li>
+                <a href="/Components/grid/grid.html"> Grid </a>
+              </li>
+              <li>
+                <a href="/Components/modal/modal.html"> Modal </a>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-                    <ul class="side-list-subtopic">
-                        <li>
-                            <a href="/Components/avatar/avatar.html">
-                                Avatar
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/alert/alert.html">
-                                Alert
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/badges/badges.html">
-                                Badge
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/button/button.html">
-                                Button
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/card/card.html">
-                                Card
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/images/images.html">
-                                Image
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/input/input.html">
-                                Input
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/text-utility/text-utility.html">
-                                Text Utilities
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/list/list.html">
-                                List
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/toast/toast.html">
-                                Toast/Snackbar/Notify
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/navigation/navigation.html">
-                                Navigation
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/ratings/ratings.html"> Ratings </a>
-                          </li>
-                          <li>
-                            <a href="/Components/grid/grid.html"> Grid </a>
-                          </li>
-                          <li>
-                            <a href="/Components/modal/modal.html"> Modal </a>
-                          </li>
-                    </ul>
-                </div>
+        <!-- Side Bar End -->
 
+        <!-- Text Utilities Content Start -->
+        <main class="component-content-container">
+          <div class="component">
+            <h1 class="component-title">Text Utilities</h1>
+
+            <p class="component-details">
+              Text utilities helps you to arrange your content according to your
+              need. For heading you can use dufferent text utilities, different
+              for paragraph as well.
+            </p>
+
+            <h2 class="component-subtitle">Headings</h2>
+
+            <p class="component-details">
+              Here are some heading components for you with examples. If you
+              want to use them in order to develop your apps with a faster pace
+              just add these classes to your code.
+            </p>
+
+            <!-- headings start -->
+            <div class="utilities-container">
+              <div class="utilities-wrap">
+                <h1>This is Heading 1</h1>
+                <h2>This is Heading 2</h2>
+                <h3>This is Heading 3</h3>
+                <h4>This is Heading 4</h4>
+                <h5>This is Heading 5</h5>
+                <h6>This is Heading 6</h6>
+              </div>
             </div>
 
-            <!-- Side Bar End -->
+            <!-- Code Snippets for heading -->
+            <div class="code-snippets">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%253EThis%2520is%2520Heading%25201%253C%252Fh1%253E%250A%253Ch2%253EThis%2520is%2520Heading%25202%253C%252Fh2%253E%250A%253Ch3%253EThis%2520is%2520Heading%25203%253C%252Fh3%253E%250A%253Ch4%253EThis%2520is%2520Heading%25204%253C%252Fh4%253E%250A%253Ch5%253EThis%2520is%2520Heading%25205%253C%252Fh5%253E%250A%253Ch6%253EThis%2520is%2520Heading%25206%253C%252Fh6%253E"
+                class="code-snippets-iframe"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
 
-            <!-- Text Utilities Content Start -->
-            <main class="component-content-container">
+          <!-- Small and Grey Text Start -->
+          <div class="component">
+            <h2 class="component-subtitle">Small Text And Grey Text</h2>
 
-                <div class=" component">
-                    <h1 class="component-title">Text Utilities</h1>
+            <p class="component-details">
+              Here are some text components for you with examples. If you want
+              to use them in order to develop your apps with a faster pace just
+              add these classes to your code.
+            </p>
 
-                    <p class="component-details">Text utilities helps you to arrange your content according to your
-                        need. For heading you can use dufferent text utilities, different for paragraph as well.</p>
+            <!-- small and grey text start -->
+            <div class="utilities-container">
+              <div class="utilities-wrap">
+                <small>This is Small Text</small>
+                <p class="grey-text">This is Grey Text</p>
+              </div>
+            </div>
+            <!-- Code Snippets for small and grey text -->
+            <div class="code-snippets">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csmall%253EThis%2520is%2520Small%2520Text%253C%252Fsmall%253E%250A%253Cp%2520class%253D%2522grey-text%2522%253EThis%2520is%2520Grey%2520Text%253C%252Fp%253E"
+                class="code-snippets-iframe"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
 
-                    <h2 class="component-subtitle">Headings</h2>
+          <!-- Center Text Start -->
+          <div class="component">
+            <h2 class="component-subtitle">Center Text</h2>
 
-                    <p class="component-details">Here are some heading components for you with examples. If you want to
-                        use them in order to develop your apps with a faster pace just add these classes to your code.
-                    </p>
+            <p class="component-details">
+              Here are some center text examples for you. If you want to use
+              them in order to develop your apps with a faster pace just add
+              these classes to your code.
+            </p>
 
-                    <!-- headings start -->
-                    <div class="utilities-container">
-                        <div class="utilities-wrap">
-                            <h1>This is Heading 1</h1>
-                            <h2>This is Heading 2</h2>
-                            <h3>This is Heading 3</h3>
-                            <h4>This is Heading 4</h4>
-                            <h5>This is Heading 5</h5>
-                            <h6>This is Heading 6</h6>
-                        </div>
-                    </div>
-
-
-                    <!-- Code Snippets for heading -->
-                    <div class="code-snippets">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%253EThis%2520is%2520Heading%25201%253C%252Fh1%253E%250A%253Ch2%253EThis%2520is%2520Heading%25202%253C%252Fh2%253E%250A%253Ch3%253EThis%2520is%2520Heading%25203%253C%252Fh3%253E%250A%253Ch4%253EThis%2520is%2520Heading%25204%253C%252Fh4%253E%250A%253Ch5%253EThis%2520is%2520Heading%25205%253C%252Fh5%253E%250A%253Ch6%253EThis%2520is%2520Heading%25206%253C%252Fh6%253E"
-                            class="code-snippets-iframe" sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </div>
-                </div>
-
-                <!-- Small and Grey Text Start -->
-                <div class=" component">
-
-                    <h2 class="component-subtitle">Small Text And Grey Text</h2>
-
-                    <p class="component-details">Here are some text components for you with examples. If you want
-                        to
-                        use them in order to develop your apps with a faster pace just add these classes to your
-                        code.
-                    </p>
-
-                    <!-- small and grey text start -->
-                    <div class="utilities-container">
-                        <div class="utilities-wrap">
-                            <small>This is Small Text</small>
-                            <p class="grey-text">This is Grey Text</p>
-                        </div>
-                    </div>
-                    <!-- Code Snippets for small and grey text -->
-                    <div class="code-snippets">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csmall%253EThis%2520is%2520Small%2520Text%253C%252Fsmall%253E%250A%253Cp%2520class%253D%2522grey-text%2522%253EThis%2520is%2520Grey%2520Text%253C%252Fp%253E"
-                            class="code-snippets-iframe" sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </div>
-
-                </div>
-
-
-                <!-- Center Text Start -->
-                <div class=" component">
-
-                    <h2 class="component-subtitle">Center Text</h2>
-
-                    <p class="component-details">Here are some center text examples for you. If you want
-                        to use them in order to develop your apps with a faster pace just add these classes to your
-                        code.
-                    </p>
-
-                    <!-- center text start -->
-                    <div class="utilities-container">
-                        <div class="utilities-wrap">
-                            <h4 class="center-text">This is Center Text</h4>
-                        </div>
-                    </div>
-                    <!-- Code Snippets for center text -->
-                    <div class="code-snippets">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch4%2520class%253D%2522center-text%2522%253EThis%2520is%2520Center%2520Text%253C%252Fh4%253E"
-                            class="code-snippets-iframe" sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </div>
-                    <hr>
-                </div>
-
-            </main>
-        </div>
+            <!-- center text start -->
+            <div class="utilities-container">
+              <div class="utilities-wrap">
+                <h4 class="center-text">This is Center Text</h4>
+              </div>
+            </div>
+            <!-- Code Snippets for center text -->
+            <div class="code-snippets">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch4%2520class%253D%2522center-text%2522%253EThis%2520is%2520Center%2520Text%253C%252Fh4%253E"
+                class="code-snippets-iframe"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+            <hr />
+          </div>
+        </main>
+      </div>
     </div>
-</body>
-
+    <script src="../../Js/theme.js"></script>
+  </body>
 </html>

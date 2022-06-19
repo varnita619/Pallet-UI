@@ -1,298 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pallet UI | Grid</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="/assets/favicon.png">
+    <link rel="icon" href="/assets/favicon.png" />
 
     <!-- font awesome link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- font family link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:wght@600&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- CSS links -->
-    <link rel="stylesheet" href="/css/component.css">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/sidebar.css">
-    <link rel="stylesheet" href="/css/docs.css">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/component.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/sidebar.css" />
+    <link rel="stylesheet" href="/css/docs.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
 
-</head>
-
-<body>
-
-
+  <body>
     <div class="container">
+      <div class="nav-section">
+        <div class="nav--align-start">
+          <a href="/index.html" class="main-logo"
+            ><h1 class="nav-logo">
+              Pallet UI <sub class="ui-version nav-logo-sub">v1.0</sub>
+            </h1></a
+          >
 
-        <div class="nav-section">
-
-            <div class="nav--align-start">
-                <h1 class="nav-logo">Pallet UI <sub class=" ui-version nav-logo-sub">v1.0</sub></h1>
-
-                <div class="nav-menu">
-                    <a href="/index.html" class="nav-links">Home</a>
-                    <a href="/Installation/install.html" class="nav-links">Docs</a>
-                </div>
-            </div>
-
-            <div class="nav--align-end">
-                <a href="https://github.com/varnita619"> <i class="fab fa-github" aria-hidden="true"
-                        title="github"></i></a>
-                <a href="https://twitter.com/VarnitaMakrari1"><i class="fab fa-twitter" aria-hidden="true"
-                        title="twitter"></i></a>
-                <a href="https://www.linkedin.com/in/varnita-makrariya-307177191/"><i class="fab fa-linkedin"
-                        aria-hidden="true" title="linkedin"></i></a>
-                <i class="fa fa-moon" aria-hidden="true" title="light-dark mode"></i>
-            </div>
+          <div class="nav-menu">
+            <a href="/index.html" class="nav-links">Home</a>
+            <a href="/Installation/install.html" class="nav-links">Docs</a>
+          </div>
         </div>
 
+        <div class="nav--align-end">
+          <a href="https://github.com/varnita619" target="_blank">
+            <i class="fab fa-github" aria-hidden="true" title="github"></i
+          ></a>
+          <a href="https://twitter.com/VarnitaMakrari1" target="_blank"
+            ><i class="fab fa-twitter" aria-hidden="true" title="twitter"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/varnita-makrariya-307177191/"
+            target="_blank"
+            ><i class="fab fa-linkedin" aria-hidden="true" title="linkedin"></i
+          ></a>
+          <i
+            class="fa fa-moon"
+            aria-hidden="true"
+            title="light-dark mode"
+            id="toggle-theme"
+          ></i>
+        </div>
+      </div>
 
-        <!-- Navbar End -->
+      <!-- Navbar End -->
 
-        <!-- Side Bar Start -->
+      <!-- Side Bar Start -->
 
-        <div class="main-container">
-            <div class="side-bar">
+      <div class="main-container">
+        <div class="side-bar">
+          <div class="side-list">
+            <h4 class="list-topic">Installation Guide</h4>
 
-                <div class="side-list">
-                    <h4 class="list-topic">Installation Guide</h4>
+            <ul class="side-list-subtopic">
+              <li>
+                <a href="/Installation/install.html"> Introduction </a>
+              </li>
+            </ul>
+          </div>
 
-                    <ul class="side-list-subtopic">
-                        <li>
-                            <a href="/Installation/install.html">
-                                Introduction
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+          <div class="side-list">
+            <h4 class="list-topic">Components</h4>
 
-                <div class="side-list">
-                    <h4 class="list-topic"> Components</h4>
+            <ul class="side-list-subtopic">
+              <li>
+                <a href="/Components/avatar/avatar.html"> Avatar </a>
+              </li>
+              <li>
+                <a href="/Components/alert/alert.html"> Alert </a>
+              </li>
+              <li>
+                <a href="/Components/badges/badges.html"> Badge </a>
+              </li>
+              <li>
+                <a href="/Components/button/button.html"> Button </a>
+              </li>
+              <li>
+                <a href="/Components/card/card.html"> Card </a>
+              </li>
+              <li>
+                <a href="/Components/images/images.html"> Image </a>
+              </li>
+              <li>
+                <a href="/Components/input/input.html"> Input </a>
+              </li>
+              <li>
+                <a href="/Components/text-utility/text-utility.html">
+                  Text Utilities
+                </a>
+              </li>
+              <li>
+                <a href="/Components/list/list.html"> List </a>
+              </li>
+              <li>
+                <a href="/Components/toast/toast.html">
+                  Toast/Snackbar/Notify
+                </a>
+              </li>
+              <li>
+                <a href="/Components/navigation/navigation.html">
+                  Navigation
+                </a>
+              </li>
+              <li>
+                <a href="/Components/ratings/ratings.html"> Ratings </a>
+              </li>
+              <li>
+                <a href="/Components/grid/grid.html"> Grid </a>
+              </li>
+              <li>
+                <a href="/Components/modal/modal.html"> Modal </a>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-                    <ul class="side-list-subtopic">
-                        <li>
-                            <a href="/Components/avatar/avatar.html">
-                                Avatar
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/alert/alert.html">
-                                Alert
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/badges/badges.html">
-                                Badge
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/button/button.html">
-                                Button
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/card/card.html">
-                                Card
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/images/images.html">
-                                Image
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/input/input.html">
-                                Input
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/text-utility/text-utility.html">
-                                Text Utilities
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/list/list.html">
-                                List
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/toast/toast.html">
-                                Toast/Snackbar/Notify
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/navigation/navigation.html">
-                                Navigation
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/ratings/ratings.html">
-                                Ratings
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/grid/grid.html">
-                                Grid
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Components/modal/modal.html"> Modal </a>
-                          </li>
-                    </ul>
-                </div>
+        <!-- Side Bar End -->
 
-            </div>
+        <!-- Grid Content Start -->
+        <main class="component-content-container">
+          <div class="component">
+            <h1 class="component-title">Grid</h1>
 
-            <!-- Side Bar End -->
+            <p class="component-details">
+              A grid container contains grid items. By default, a container has
+              one grid item for each column, in each row, but you can style the
+              grid items so that they will span multiple columns and/or rows.
+            </p>
 
-            <!-- Grid Content Start -->
-            <main class="component-content-container">
+            <h2 class="component-subtitle">Two Items in a Grid</h2>
 
-                <div class=" component">
-                    <h1 class="component-title">Grid</h1>
+            <p class="component-details">
+              Here is a grid component for you with examples. If you want to use
+              them in order to develop your apps with a faster pace just add
+              these classes to your code.
+            </p>
 
-                    <p class="component-details">A grid container contains grid items. By default, a container has one
-                        grid item for each column, in each row, but you can style the grid items so that they will span
-                        multiple columns and/or rows.</p>
+            <!-- navbar start -->
+            <main class="grid-container">
+              <div class="grid-wrapper-2items">
+                <img
+                  src="https://cdn.pixabay.com/photo/2021/12/15/07/29/saint-isaac-cathedral-6871954__340.jpg"
+                  alt="grid-image"
+                  class="grid-image"
+                />
 
-                    <h2 class="component-subtitle">Two Items in a Grid</h2>
-
-                    <p class="component-details">Here is a grid component for you with examples. If you want to
-                        use them in order to develop your apps with a faster pace just add these classes to your code.
-                    </p>
-
-                    <!-- navbar start -->
-                    <main class="grid-container">
-                        <div class="grid-wrapper-2items">
-
-                            <img src="https://cdn.pixabay.com/photo/2021/12/15/07/29/saint-isaac-cathedral-6871954__340.jpg"
-                                alt="grid-image" class="grid-image">
-
-                            <img src="https://cdn.pixabay.com/photo/2021/12/15/07/29/saint-isaac-cathedral-6871954__340.jpg"
-                                alt="grid-image" class="grid-image">
-
-                        </div>
-                    </main>
-
-
-                    <!-- Code Snippets for navigation -->
-                    <div class="code-snippets">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=45px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-wrapper-2items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fcdn.pixabay.com%252Fphoto%252F2021%252F12%252F15%252F07%252F29%252Fsaint-isaac-cathedral-6871954__340.jpg%2522%2520alt%253D%2522grid-image%2522%2520class%253D%2522grid-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fcdn.pixabay.com%252Fphoto%252F2021%252F12%252F15%252F07%252F29%252Fsaint-isaac-cathedral-6871954__340.jpg%2522%2520alt%253D%2522grid-image%2522%2520class%253D%2522grid-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
-                            class="code-snippets-iframe" sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-
-
-                    </div>
-
-                </div>
-
-                <div class=" component">
-                    <h2 class="component-subtitle">Three Items in a Grid</h2>
-
-                    <p class="component-details">Here is a grid component for you with examples. If you want to
-                        use them in order to develop your apps with a faster pace just add these classes to your code.
-                    </p>
-
-                    <!-- grid start -->
-                    <main class="grid-container">
-                        <div class="grid-wrapper-3items">
-
-                            <!-- 1st component -->
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="https://cdn.pixabay.com/photo/2017/08/01/08/29/woman-2563491__340.jpg"
-                                        alt="card-image">
-                                </div>
-
-                                <div class="card-details">
-                                    <h3>Women's Top</h3>
-                                    <span>Ships in 3-4 working days</span>
-                                </div>
-                                <div class="card-pricing">
-                                    <h2>$20</h2>
-                                </div>
-
-                                <div class="card-buttons">
-                                    <button class="btn1"> <i class="fas fa-shopping-cart"></i> Add to cart</button>
-                                    <button class="btn2"> <i class="fas fa-bolt"></i> Buy Now</button>
-                                </div>
-                            </div>
-
-                            <!-- 2nd component -->
-
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="https://cdn.pixabay.com/photo/2017/11/23/03/17/christmas-2971961__480.jpg"
-                                        alt="card-image">
-                                </div>
-
-                                <div class="card-details">
-                                    <h3>Women's Top</h3>
-                                    <span>Ships in 3-4 working days</span>
-                                </div>
-                                <div class="card-pricing">
-                                    <h2>$20</h2>
-                                </div>
-
-                                <div class="card-buttons">
-                                    <button class="btn1"> <i class="fas fa-shopping-cart"></i> Add to cart</button>
-                                    <button class="btn2"> <i class="fas fa-bolt"></i> Buy Now</button>
-                                </div>
-                            </div>
-
-                            <!-- 3rd component -->
-
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="https://cdn.pixabay.com/photo/2017/06/20/22/14/man-2425121__340.jpg"
-                                        alt="card-image">
-                                </div>
-
-                                <div class="card-details">
-                                    <h3>Women's Top</h3>
-                                    <span>Ships in 3-4 working days</span>
-                                </div>
-                                <div class="card-pricing">
-                                    <h2>$20</h2>
-                                </div>
-
-                                <div class="card-buttons">
-                                    <button class="btn1"> <i class="fas fa-shopping-cart"></i> Add to cart</button>
-                                    <button class="btn2"> <i class="fas fa-bolt"></i> Buy Now</button>
-                                </div>
-                            </div>
-
-                        </div>
-                    </main>
-
-
-                    <!-- Code Snippets for grid -->
-                    <div class="code-snippets">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=45px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-wrapper-3items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253C%21--%25201st%2520component%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EWomen%27s%2520Top%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EShips%2520in%25203-4%2520working%2520days%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-pricing%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253E%252420%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn1%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520Add%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn2%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-bolt%2522%253E%253C%252Fi%253E%2520Buy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-                            class="code-snippets-iframe" sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-
-
-                    </div>
-
-                </div>
-                    <hr>
+                <img
+                  src="https://cdn.pixabay.com/photo/2021/12/15/07/29/saint-isaac-cathedral-6871954__340.jpg"
+                  alt="grid-image"
+                  class="grid-image"
+                />
+              </div>
             </main>
-        </div>
+
+            <!-- Code Snippets for navigation -->
+            <div class="code-snippets">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=45px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-wrapper-2items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fcdn.pixabay.com%252Fphoto%252F2021%252F12%252F15%252F07%252F29%252Fsaint-isaac-cathedral-6871954__340.jpg%2522%2520alt%253D%2522grid-image%2522%2520class%253D%2522grid-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fcdn.pixabay.com%252Fphoto%252F2021%252F12%252F15%252F07%252F29%252Fsaint-isaac-cathedral-6871954__340.jpg%2522%2520alt%253D%2522grid-image%2522%2520class%253D%2522grid-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                class="code-snippets-iframe"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <div class="component">
+            <h2 class="component-subtitle">Three Items in a Grid</h2>
+
+            <p class="component-details">
+              Here is a grid component for you with examples. If you want to use
+              them in order to develop your apps with a faster pace just add
+              these classes to your code.
+            </p>
+
+            <!-- grid start -->
+            <main class="grid-container">
+              <div class="grid-wrapper-3items">
+                <!-- 1st component -->
+                <div class="card">
+                  <div class="card-image">
+                    <img
+                      src="https://cdn.pixabay.com/photo/2017/08/01/08/29/woman-2563491__340.jpg"
+                      alt="card-image"
+                    />
+                  </div>
+
+                  <div class="card-details">
+                    <h3>Women's Top</h3>
+                    <span>Ships in 3-4 working days</span>
+                  </div>
+                  <div class="card-pricing">
+                    <h2>$20</h2>
+                  </div>
+
+                  <div class="card-buttons">
+                    <button class="btn1">
+                      <i class="fas fa-shopping-cart"></i> Add to cart
+                    </button>
+                    <button class="btn2">
+                      <i class="fas fa-bolt"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+
+                <!-- 2nd component -->
+
+                <div class="card">
+                  <div class="card-image">
+                    <img
+                      src="https://cdn.pixabay.com/photo/2017/11/23/03/17/christmas-2971961__480.jpg"
+                      alt="card-image"
+                    />
+                  </div>
+
+                  <div class="card-details">
+                    <h3>Women's Top</h3>
+                    <span>Ships in 3-4 working days</span>
+                  </div>
+                  <div class="card-pricing">
+                    <h2>$20</h2>
+                  </div>
+
+                  <div class="card-buttons">
+                    <button class="btn1">
+                      <i class="fas fa-shopping-cart"></i> Add to cart
+                    </button>
+                    <button class="btn2">
+                      <i class="fas fa-bolt"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+
+                <!-- 3rd component -->
+
+                <div class="card">
+                  <div class="card-image">
+                    <img
+                      src="https://cdn.pixabay.com/photo/2017/06/20/22/14/man-2425121__340.jpg"
+                      alt="card-image"
+                    />
+                  </div>
+
+                  <div class="card-details">
+                    <h3>Women's Top</h3>
+                    <span>Ships in 3-4 working days</span>
+                  </div>
+                  <div class="card-pricing">
+                    <h2>$20</h2>
+                  </div>
+
+                  <div class="card-buttons">
+                    <button class="btn1">
+                      <i class="fas fa-shopping-cart"></i> Add to cart
+                    </button>
+                    <button class="btn2">
+                      <i class="fas fa-bolt"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </main>
+
+            <!-- Code Snippets for grid -->
+            <div class="code-snippets">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=45px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-wrapper-3items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253C%21--%25201st%2520component%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EWomen%27s%2520Top%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EShips%2520in%25203-4%2520working%2520days%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-pricing%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253E%252420%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn1%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520Add%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn2%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-bolt%2522%253E%253C%252Fi%253E%2520Buy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                class="code-snippets-iframe"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+          <hr />
+        </main>
+      </div>
     </div>
-
-</body>
-
+    <script src="../../Js/theme.js"></script>
+  </body>
 </html>
