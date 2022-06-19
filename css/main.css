@@ -8,7 +8,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 1em 0.5em 1em 1em;
-  box-shadow: 1px 1px 2px var(--border-color);
+  box-shadow: 1px 1px 2px var(--shadow-color);
   width: 100%;
 }
 
@@ -42,6 +42,10 @@ body {
   margin-right: 1.5em;
   font-size: 2rem;
   color: var(--primary-color);
+}
+
+.main-logo{
+  text-decoration: none;
 }
 
 .nav-logo-sub {
@@ -100,9 +104,8 @@ a:hover {
 }
 
 .btn {
-  color: var(--text-black);
   text-decoration: none;
-  padding: 0.7em;
+  padding: 0.6em;
   margin-right: 1em;
   font-size: 1.2rem;
   border-radius: 10px;
@@ -126,7 +129,8 @@ a:hover {
 }
 
 .btn-secondary {
-  border: 1.8px solid var(--primary-color);
+  color: var(--text-black);
+  border: 1.5px solid var(--primary-color);
 }
 
 .btn-secondary:hover {
