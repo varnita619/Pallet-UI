@@ -138,3 +138,33 @@ a:hover {
   color: var(--default-color);
   font-weight: bold;
 }
+
+@media only screen and (max-width: 435px) {
+  .main-img > img {
+    display: none;
+  }
+
+  .head {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+
+  .subhead {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width:769px) {
+    .main-img > img{
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .head{
+        margin-top: 2rem;
+    }
+}
