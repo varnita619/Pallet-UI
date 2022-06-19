@@ -3,8 +3,6 @@ const bodyDoc = document.querySelector('body');
 
 const rootDoc = document.querySelector(':root');
 
-console.log(rootDoc)
-
 const addDarkTheme = () => {
     bodyDoc.style.backgroundColor = 'black';
     bodyDoc.style.color = 'white';
