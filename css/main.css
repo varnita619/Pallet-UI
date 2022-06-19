@@ -30,7 +30,7 @@ body {
 
 .nav--align-end i {
   margin-right: 1em;
-  color: black;
+  color: var(--text-black);
 }
 
 .nav--align-end i:hover {
@@ -51,7 +51,7 @@ body {
 
 .nav-links {
   text-decoration: none;
-  color: black;
+  color: var(--text-black);
   font-size: 1rem;
   margin-right: 2em;
 }
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .btn {
-  color: black;
+  color: var(--text-black);
   text-decoration: none;
   padding: 0.7em;
   margin-right: 1em;
@@ -120,7 +120,7 @@ a:hover {
 }
 
 .btn-primary:hover {
-  color: black;
+  color: var(--text-black);
   background-color: transparent;
   border: 1.8px solid var(--primary-color);
 }
@@ -130,7 +130,7 @@ a:hover {
 }
 
 .btn-secondary:hover {
-  color: white;
+  color: var(--text-color);
   background-color: var(--primary-color);
 }
 
